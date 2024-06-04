@@ -13,7 +13,7 @@ from .database import  engine
 #from sqlalchemy.orm import Session
 # from sqlalchemy.sql.functions import mode
 from .routers import post, user, auth, vote
-from .config import settings
+#from .config import settings
 from fastapi.middleware.cors import CORSMiddleware
 
 

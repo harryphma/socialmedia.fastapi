@@ -1,0 +1,13 @@
+name: Intro to CI/CD
+
+on: [push, pull_request]
+
+jobs:
+    first_job: 
+        runs-on: ubuntu-latest
+        steps:
+            - name: pulling git repo
+              uses: actions/checkout@v2
+            - name: hello world
+              run: echo "Hello world"
+
